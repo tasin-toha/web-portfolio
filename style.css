@@ -8,7 +8,7 @@ h1 {
 h2 {
   font-size: 40px;
 }
-.name-highlight {
+.orange-highlight {
   color: orange;
 }
 p {
@@ -43,4 +43,38 @@ section {
   border-radius: 5px;
   color: white;
   font-weight: 800;
+}
+.single-exprience {
+  box-shadow: 10px 10px 50px gray;
+  border-radius: 10px;
+  height: 80%;
+  background-color: white;
+}
+.experience-area {
+  background-image: url("images/exp-bg.png");
+  background-repeat: no-repeat;
+  background-position: leftf;
+}
+#full-stack {
+  border-left: 8px solid;
+  border-image: linear-gradient(180deg, lightSalmon, tomato);
+  border-image-slice: 1;
+}
+#baby {
+  border-left: 8px solid;
+  border-image: linear-gradient(180deg, blue, cyan);
+  border-image-slice: 1;
+}
+
+.site-footer {
+  background-color: rgb(255, 209, 148);
+  padding: 45px 0 20px;
+  font-size: 15px;
+  line-height: 24px;
+  color: #737373;
+  text-align: center;
+}
+#last-name {
+  text-decoration: none;
+  color: #737373;
 }
